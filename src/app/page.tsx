@@ -140,7 +140,7 @@ export default function Home() {
 
             <div className="relative z-30">
               <h1 className={`${satisfy.className} text-4xl sm:text-5xl mb-4 text-white leading-none -mt-16 sm:mt-6`}>
-                Kimberly's Journey
+                Kimberly&apos;s Journey
               </h1>
               <p className="text-sm text-white/80 mb-8 px-6">
                 Join me for yummy food inspiration & meal plans or get in touch if you need any travel or Disney related advice
