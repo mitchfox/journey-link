@@ -22,12 +22,12 @@ const caprasimo = Caprasimo({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Gemma',
+    template: '%s - Kimberly\'s Journey',
     default:
-      'Gemma - 1:1 Coach & Food Creator',
+      'Kimberly\'s Journey',
   },
   description:
-    "I'm Gemma, a 1:1 Coach & Food Creator. I help you create a healthier, happier relationship with food.",
+    "Join me for yummy food inspiration & meal plans or get in touch if you need any travel or Disney related advice",
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
