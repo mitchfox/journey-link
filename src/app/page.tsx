@@ -29,8 +29,8 @@ import WalkingPad from '@/images/photos/walkingpad.webp'
 import WithMeLogo from '@/images/photos/withmelogo.png'
 import AmazonLogo from '@/images/photos/amazonlogo.jpg'
 import YoutubeLogo from '@/images/photos/youtube.png'
-
-
+import CookBook from '@/images/photos/cookbook.jpg'
+import Found from '@/images/photos/found.png'
 const satisfy = Satisfy({
   subsets: ['latin'],
   weight: '400',
@@ -83,7 +83,7 @@ function LinkBox({
     <a
       href={href}
       target="_blank"
-      className="flex items-center justify-between rounded-2xl backdrop-blur-sm bg-white/10 p-3 border border-white/10 hover:bg-white/20 transition-colors"
+      className="flex items-center justify-between rounded-2xl backdrop-blur-sm bg-white/10 p-2 border border-white/10 hover:bg-white/20 transition-colors"
     >
       <div className="flex items-center gap-4 flex-1">
         {image ? (
@@ -190,12 +190,12 @@ export default function Home() {
                   href="https://withme.so/become-a-creator?id=4104&code=2e1a2cc33b03ff2600e40cd989f648a76fe4fe07ac5b89936d4a6ed0df4bc038"
                 />
                 <LinkBox
-                  image={Amazon.src}
+                  image={CookBook.src}
                   title="GET MY COOKBOOK ON AMAZON"
                   href="https://www.amazon.co.uk/dp/B0DPXYCV5P"
                 />
                 <LinkBox
-                  image="https://withme.so/static/media/kim.da82f64a150bc96a6e19.webp"
+                  image={Found.src}
                   title="ORDER MY COOKBOOK"
                   href="https://found.us/cookbooks/650457dc54410a6ac184d9ff"
                 />
@@ -216,17 +216,17 @@ export default function Home() {
                   href="https://www.instagram.com/kimberlys_journeyy"
                 />
                 <LinkBox
-                  icon={ExternalLinkIcon}
+                  icon={TikTokIcon}
                   title="TikTok"
                   href="https://www.tiktok.com/@kimberlys_journey"
                 />
                 <LinkBox
-                  image={YoutubeLogo.src}
+                  icon={YouTubeIcon}
                   title="YouTube travel vlogs!"
                   href="https://www.youtube.com/channel/UCviWCpWoLsREjGnIFGeE3TA"
                 />
                 <LinkBox
-                  icon={ExternalLinkIcon}
+                  icon={FacebookIcon}
                   title="Facebook"
                   href="https://www.facebook.com/Kimberlyslimmingjourney"
                 />
