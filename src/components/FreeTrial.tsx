@@ -26,7 +26,7 @@ export function FreeTrialBanner() {
   if (!isVisible) {
     return null
   }
-
+ 
   return (
     <div className="fixed max-w-lg bottom-5 left-4 box-border right-4 w-auto mx-auto bg-white/80 backdrop-blur-md border border-gray-200 text-center z-50 rounded-xl">
       <div 
