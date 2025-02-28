@@ -28,20 +28,20 @@ export function FreeTrialBanner() {
   }
 
   return (
-    <div className="fixed max-w-lg bottom-5 left-4 box-border right-4 w-auto mx-auto bg-zinc-900/80 backdrop-blur-md border border-zinc-800/80 text-center z-50 rounded-xl">
+    <div className="fixed max-w-lg bottom-5 left-4 box-border right-4 w-auto mx-auto bg-white/80 backdrop-blur-md border border-gray-200 text-center z-50 rounded-xl">
       <div 
         onClick={handleClick}
         className="relative inline-flex items-center justify-between gap-2 p-2 cursor-pointer transition-colors w-full"
       >
         <div className="flex items-center">
           <WithMeIconColored className="h-4 w-4 ml-1" />
-          <p className="text-sm font-bold text-white ml-1">
+          <p className="text-sm font-bold text-black ml-1">
             WithMe
           </p>
         </div>
         
         <div className="flex items-center">
-          <p className="text-xs font-bold text-white mr-3">
+          <p className="text-xs font-bold text-black mr-3">
             Try 14 Days Free
           </p>
           <button
@@ -50,7 +50,7 @@ export function FreeTrialBanner() {
             aria-label="Close banner"
           >
             <svg
-              className="w-4 h-4 text-gray-400"
+              className="w-4 h-4 text-gray-600"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
