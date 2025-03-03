@@ -15,7 +15,7 @@ export function FreeTrialBanner() {
   const [isVisible, setIsVisible] = useState(true)
 
   const handleClick = () => {
-    window.open('https://withme.so/become-a-creator', '_blank')
+    window.open('https://withme.so/become-a-creator?id=50&code=a04e94279e34aa57a5b37a2d0715fe0112660fefef08d188a19eed2c3df52e8d', '_blank')
   }
 
   const handleClose = (e: React.MouseEvent) => {
