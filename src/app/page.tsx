@@ -199,6 +199,11 @@ export default function Home() {
                   title="ORDER MY COOKBOOK"
                   href="https://found.us/cookbooks/650457dc54410a6ac184d9ff"
                 />
+                <LinkBox
+                  image={'https://fromourplace.co.uk/cdn/shop/t/1/assets/opengraph.jpg?v=92520740334726131061620946325'}
+                  title="Shop my favourite pans here"
+                  href="https://fromourplace.co.uk/"
+                />
 
                 <LinkBox
                   image={WalkingPad.src}
