@@ -31,6 +31,7 @@ import AmazonLogo from '@/images/photos/amazonlogo.jpg'
 import YoutubeLogo from '@/images/photos/youtube.png'
 import CookBook from '@/images/photos/cookbook.jpg'
 import Found from '@/images/photos/found.png'
+import More from '@/images/photos/more.png'
 const satisfy = Satisfy({
   subsets: ['latin'],
   weight: '400',
@@ -200,16 +201,22 @@ export default function Home() {
                   href="https://found.us/cookbooks/650457dc54410a6ac184d9ff"
                 />
                 <LinkBox
+                  image={More.src}
+                  title="More Nutrition protein products - use code 'KIMBERLY'"
+                  href="https://morenutrition.co.uk/"
+                />
+                <LinkBox
                   image={'https://fromourplace.co.uk/cdn/shop/t/1/assets/opengraph.jpg?v=92520740334726131061620946325'}
                   title="Shop my favourite pans here"
                   href="https://fromourplace.co.uk/"
                 />
-
                 <LinkBox
                   image={WalkingPad.src}
-                  title="Walking Pad code 'KIMBERLYSLIMMINGJOURNEY'"
+                  title="Walking Pad - use code 'KIMBERLYSLIMMINGJOURNEY'"
                   href="https://uk.walkingpad.com/products/walkingpad-c2-foldable-walking-machine-for-uk?fbclid=PAZXh0bgNhZW0CMTEAAabqKMx4RnLsSxiXvr9B4elgojz0AhxHO5wZxR504PR2tiQ4kXapgAZJ0KE_aem_3rEs0KK_gN-mUUwmFmmj7g"
                 />
+
+
                 <LinkBox
                   image={AmazonLogo.src}
                   title="My Amazon Storefront"
