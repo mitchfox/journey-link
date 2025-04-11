@@ -32,6 +32,7 @@ import YoutubeLogo from '@/images/photos/youtube.png'
 import CookBook from '@/images/photos/cookbook.jpg'
 import Found from '@/images/photos/found.png'
 import More from '@/images/photos/more.png'
+import Ring from '@/images/photos/ring.png'
 const satisfy = Satisfy({
   subsets: ['latin'],
   weight: '400',
@@ -199,6 +200,11 @@ export default function Home() {
                   image={Found.src}
                   title="ORDER MY COOKBOOK"
                   href="https://found.us/cookbooks/650457dc54410a6ac184d9ff"
+                />
+                <LinkBox
+                  image={Ring.src}
+                  title="Shop Ultra Human Rings - 10% off with code 'UHKIMBERLEY10'"
+                  href="http://ultrahuman.com/kimberlys_journeyy"
                 />
                 <LinkBox
                   image={More.src}
